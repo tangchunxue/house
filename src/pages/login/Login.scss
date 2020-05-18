@@ -1,0 +1,27 @@
+// $base:red;
+.login{
+    height: 100%;
+    background: white;
+    position: relative;
+    .logo{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        img{
+            width: 50%;
+            margin-top: 60px;
+        }
+        
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        margin:10px 20px 0 20px;
+    }
+    .footer{
+        position: fixed;
+        bottom: 5%;
+        left: 15%;
+        color: #cccccc;
+    }
+}
